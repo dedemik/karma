@@ -98,3 +98,4 @@ bir girdi ekle ve `THEME_ORDER` listesine yaz.
 - Dosya kaydetme/açma bilinçli olarak simülasyon seviyesinde bırakıldı.
 - `gui/` klasörü önceki "boş GUI iskeleti" çalışmasıdır; simülasyon onu kullanmaz.
 # karma
+# karma
