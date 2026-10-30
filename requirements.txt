@@ -1,0 +1,2 @@
+# Duvar kağıtları için (opsiyonel; yoksa canvas ile çizilir)
+Pillow>=10.0

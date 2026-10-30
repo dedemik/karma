@@ -1,0 +1,41 @@
+# .claudeignore — yapay zekâ ajanı bağlamına alınmayacak dosyalar
+# Sözdizimi .gitignore ile aynıdır. Depo zaten git değil; bu dosya yalnızca
+# ajanların gereksiz dosyaları okumasını engellemek için bir ipucudur.
+
+# --- Python sanal ortamı ve önbellekleri
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Derleme / çalışma çıktıları
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.orig
+
+# --- Ekran görüntüleri ve medya (depoda tutulmuyor)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+
+# --- Editör / işletim sistemi artıkları
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
